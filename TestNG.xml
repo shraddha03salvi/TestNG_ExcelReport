@@ -1,0 +1,20 @@
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SaveReportToExcel">
+
+<!-- SaveReportToExcel -->
+<test name="SaveReportToExcel">
+<classes>
+<class name="com.techbeamers.testng.SaveReportToExcel">
+<methods>
+<include name="LaunchWebsite"/>
+<include name="FillLoginDetails"/>
+<include name="DoLogin"/>
+</methods>
+</class>
+</classes>
+</test>
+<!-- SaveReportToExcel -->
+</suite>
